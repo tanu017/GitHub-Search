@@ -1,1 +1,49 @@
+.head-search {
+    text-align: center;
+    margin-bottom: 4%;
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 2rem;
+}
+.username-text {
+    font-size: 2rem;
+    margin-right: 4px;
+    border-radius: 12px;
+}
+.search-button {
+    font-size: 2rem;
+    border-radius: 12px;
+}
+#github-details {
+    display: flex;
+    justify-content:space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+    border: 2px solid black;
+    border-radius: 12px;
+} 
+p {
+    font-size: 2rem;
+}
+img {
+    text-align: left;
+    justify-self: left;
+    border-radius: 50px;
+}
+#name-image {
+    border: 2px double black;
+    padding: 2%;
+    border-radius: 12px;
+    width: 40%;
+}
+#details {
+    border: 2px double black;
+    padding: 2%;
+    border-radius: 12px;
+    width: 60%;
+}
 

@@ -1,15 +1,13 @@
-name: Open new issue
-on: workflow_dispatch
-
+on:
+  workflow_dispatch:
 jobs:
-  open-issue:
+  use_api:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
-      issues: write
+      issues: read
     steps:
-      - run: |
-          gh issue --repo ${{ github.repository }} \
-            create --title "Issue title" --body "Issue body"
-        env:
+      - env:
           GH_TOKEN: ${{ secrets.GITHUB-SEARCH_TOKEN }}
+        run: |
+          gh api https://api.github.com/users/{username}
+

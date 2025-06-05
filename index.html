@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Search</title>
+    <style>
+        .head-search {
+            text-align: center;
+        }
+        h1 {
+            font-size: 4rem;
+        }
+        .username-text {
+            font-size: 2rem;
+            margin-right: 4px;
+            border-radius: 12px;
+        }
+        .search-button {
+            font-size: 2rem;
+            border-radius: 12px;
+        }
+        #github-details {
+            justify-content: space-between;
+            margin-left: 10%;
+            margin-right: 10%;
+        } 
+        p {
+            text-align: right;
+            justify-self: right;
+        }
+        img {
+            text-align: left;
+            justify-self: left;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head-search">
+        <h1>Github Search</h1>
+        <input class="username-text" type="text" placeholder="Enter Github Username">
+        <button class="search-button">Search</button>
+    </div>
+    <div id="github-details"></div>
+    <script src="script.js"></script>
+</body>
+</html>

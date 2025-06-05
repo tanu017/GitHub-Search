@@ -20,8 +20,8 @@ h2 {
 #github-details {
     display: flex;
     justify-content:space-between;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 2%;
     border: 2px solid black;
     border-radius: 12px;
@@ -45,5 +45,11 @@ img {
     padding: 2%;
     border-radius: 12px;
     width: 60%;
+    margin: 1px;
 }
-
+#modes {
+    justify-self: right;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+}
